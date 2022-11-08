@@ -21,7 +21,6 @@
   },
   "devDependencies": {
     "concurrently": "^7.5.0",
-    "gh-pages": "^4.0.0",
     "nodemon": "^2.0.20"
   }
 }

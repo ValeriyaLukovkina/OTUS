@@ -1,0 +1,29 @@
+@import './../../commonScss/colors.scss';
+@import './../../commonScss/fonts.scss';
+
+.city {
+    display: flex;
+    flex-direction: column;
+
+    &_block {
+        display: flex;
+        // padding: 0 50px 0 50px;
+        margin: 10px;
+    }
+
+    &_link {
+        display: block;
+        background: linear-gradient(116.79deg, rgba(255, 255, 255, 0.48) -41.94%, rgba(255, 255, 255, 0.12) 57.51%);
+        border-radius: 20px;
+        width: 100%;
+        margin: 0;
+        text-decoration: none;
+        color: $white;
+        box-sizing: border-box;
+        padding: 10px 50px 10px 50px;
+
+        &:hover {
+            background: linear-gradient(116.79deg, rgba(255, 255, 255, 0.48) 100%, rgba(255, 255, 255, 0.12) 100%);
+        }
+    }
+}

@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <script>
+            const button = document.createElement('button');
+            button.innerText = 'Clicked 0 times';
+            button.id = 'btn';
+            let count = 0;
+            button.onclick = () => {
+                count++;
+                button.innerText = `Clicked ${count} times`
+            }
+            document.body.appendChild(button)
+
+        </script>
+    </body>
+</html>

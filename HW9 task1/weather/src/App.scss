@@ -1,0 +1,16 @@
+@import './commonScss/colors.scss';
+@import './commonScss/fonts.scss';
+
+.App {
+  font-family: $font-inter;
+  font-weight: 300;
+  color: white;
+  background: linear-gradient(60deg, $pink 0%, $purple 100%);
+  margin: 0;
+  padding: 0;
+}
+
+.wrp {
+  max-width: 1024px;
+  margin: 0 auto;
+}

@@ -1,4 +1,4 @@
-const getPath = (elem) => {
+export const getPath = (elem) => {
     let nameParent = [];
     let parent = '';
 
